@@ -4,12 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "npx tailwindcss -i ./src/style.css -o ./public/src/output.css --watch"
+    "dev": "npx tailwindcss -i ./src/style.css -o ./public/src/output.css --watch"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "lucide": "^0.379.0"
   }
 }
